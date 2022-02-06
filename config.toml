@@ -1,0 +1,30 @@
+baseURL = 'http://leregdos.github.io/'
+copyright = "heartbreak or?"
+theme = "intro"
+defaultContentLanguage = "hb"              
+
+
+[params]
+    fadeIn                       = true                   
+    fadeInIndex                  = true                 
+    [params.home]
+        introHeight              = "medium"            
+
+[languages]
+    [languages.hb]
+        languageName     = "Heartbreak"
+        languageCode     = "hb"
+        contentDir       = "content/hb"
+        weight           = 0
+        title            = "Heartbreak"
+        [languages.hb.params]
+            footerText   = ""                     
+
+    [languages.or]
+        languageName     = "Or"
+        languageCode     = "or"
+        contentDir       = "content/or"
+        weight           = 0
+        title            = "Or?"
+        [languages.or.params]
+            footerText   = ""
